@@ -4,7 +4,7 @@ CHAGES I'VE MADE:
 
 *Home page:
 
-I applied CSS STYLING[
+I applied CSS STYLING [
 
 Font family(Segoe,Tahoma,geneva,verdana,sans-serif)
 
@@ -14,9 +14,9 @@ I added background color(aqua) at the navigation bar
 
 I added logo
 
-I added navbar hover with background color- rgb(65,75,161)
+I added navbar hover with background color- rgb(65,75,161)]
 
-]
+
 I added a new photo
 
 *About us page:
