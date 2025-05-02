@@ -1,0 +1,77 @@
+nav{
+    background-color: aqua;
+    padding: 14px;
+    margin: 0px;
+    text-align: left;
+}
+
+nav a{
+text-decoration: none;
+font-size: 20px;
+margin: 10px;
+}
+nav a:hover{
+    background-color: rgb(65, 75, 161);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+}
+h2{
+    color: rgb(47, 47, 121);
+    font-size: 27px;
+    text-align: center;
+    padding: 16px;
+}
+
+h1{
+    color: rgb(22, 22, 95);
+  }
+  
+  .mamiki{
+      text-align: center;
+      border-radius: 40px;
+  }
+  
+  body{
+      background-color: rgb(125, 105, 197);
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+  .Contact Form{
+    background: rgb(82, 92, 153);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(4, 7, 37);
+    width: 320px;
+    
+    
+ }
+
+.Contact Form h2{
+    text-align: center;
+    margin-bottom: 15px;
+
+
+}
+
+.Contact Form input,.Contact Form textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px salmon;
+    border-radius: 5px;
+}
+
+.Contact Form Button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: blueviolet;
+    color: rgb(29, 13, 51);
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
