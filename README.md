@@ -20,6 +20,9 @@ CHAGES I'VE MADE:
 
 
 
+
+
+
 *About us page:
 
 I applied CSS STYLING[
@@ -49,6 +52,7 @@ I added a new picture
 
 
 
+
 *Services:
 
 I applied CSS STYLING[
@@ -58,6 +62,10 @@ I applied CSS STYLING[
 -Font family
 
 -Color scheme has changed]
+
+
+
+
 
 *News page:
 
