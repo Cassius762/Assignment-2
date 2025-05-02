@@ -1,4 +1,6 @@
-nav{
+
+
+.navbar{
     background-color: aqua;
     padding: 14px;
     margin: 0px;
@@ -10,7 +12,7 @@ text-decoration: none;
 font-size: 20px;
 margin: 10px;
 }
-nav a:hover{
+.navbar a:hover{
     background-color: rgb(65, 75, 161);
     padding: 15px;
     margin: 15px;
@@ -56,7 +58,7 @@ h1{
 
 }
 
-.Contact Form input,.Contact Form textarea{
+.Contact Form input .Contact Form textarea{
     width: 100%;
     padding: 8px;
     margin-top: 5px;
@@ -73,5 +75,52 @@ h1{
     cursor: pointer;
     border-radius: 5px;
 
+
+}
+
+.footer-content {
+       margin: 0px;
+       padding: 0px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 16px;
+       color: white;
+}
+
+footer{
+    background-color: #3d7397;
+    padding-top: 50px;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    width: 33,3;
+}
+
+.footer-content{
+            width: 190px;
+            margin: auto;
+            padding: 7px;
+}
+
+.footer-content ul{
+                 text-align: center;
+}
+
+.list{
+    padding: 0;
+}
+
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
 }
 
