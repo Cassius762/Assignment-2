@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plumbing News | Fast Flushing Plumbing</title>
+  <link rel="stylesheet" type="text/css" href="news.css">
+  
+   
+</head>
+<body>
+    <div class="navbar">
+        <ul>     
+             <img src="images/human2.png" style="height: 60px;">
+        
+        <a href=".index.html">Home</a>|
+        <a href=".aboutus.html">Aboutus</a>|
+        <a href="service.html">Service</a>|
+        <a href=".news.html">News</a>|
+        <a href="contactus.html">Contactus</a>|
+        </ul>
+      
+<header>
+  <h1>Plumbing News & Updates</h1>
+  <p>Stay updated with tips, news, and industry trends</p>
+</header>
+
+<main id="news-container">
+</main>
+
+
+
+<script>
+  
+  const newsArticles = [
+    {
+      title: "Summer Plumbing Tips to Save Water & Money",
+      date: "June 10, 2025",
+      summary: "Learn how to prepare your plumbing system for summer and reduce water costs effectively."
+    },
+    {
+      title: "{Fast Flushing Plumbing} Wins Local Business Excellence Award",
+      date: "May 22, 2025",
+      summary: "We are proud to be recognized as a top service provider in the region!"
+    },
+    {
+      title: "Smart Plumbing: The Future is Here",
+      date: "May 1, 2025",
+      summary: "Discover new technology like leak sensors, smart faucets, and automated shut-off systems."
+    },
+    {
+      title: "Understanding New Plumbing Codes in [Your State]",
+      date: "April 17, 2025",
+      summary: "Here's what you need to know about recent changes to plumbing codes and compliance."
+    }
+  ];
+  
+
+ 
+  function renderArticles() {
+    const container = document.getElementById("news-container");
+
+    newsArticles.forEach(article => {
+      const div = document.createElement("div");
+      div.className = "news-article";
+      div.innerHTML = `
+        <h2>${article.title}</h2>
+        <div class="date">${article.date}</div>
+        <p>${article.summary}</p>
+      `;
+      container.appendChild(div);
+    });
+  }
+
+ 
+  window.onload = renderArticles;
+
+  
+
+   </script>
+<footer>
+    <div class="container">
+     <div class="footer-content">
+       <h2>Contact us</h2>
+       <p>Email:FastFlushingPlumbing@gmail.com</p>
+       <p>Phone:0713753151</p>
+       <p>Address:363 Oliver Tambo Street</p>
+     </div>
+
+     <div class="footer-content">
+       <h2>Quick links</h2>
+       <ul class="list">
+         
+           <li><a href=".index.html">Home</a></li>
+           <li><a href=".aboutus.html">Aboutus</a></li>
+           <li><a href="contactus.html">Contactus</a></li>
+           <li><a href=".news.html">News</a></li>
+           <li><a href="service.html">Service</a></li>
+       </ul>
+     </div>
+
+     <div class="footer-content">
+      <h2>Follow Us</h2>
+      <ul class="list">
+        <li><a href="#">Facebook: Fast Flushing Plumbing</a></li>
+        <li><a href="#">Instagram:  @FastFlushingPlumbing</a></li>
+        <li><a href="#">Twitter: @FFPlumbing</a></li>
+        <li><a href="#">Linkedin: FastFlushing Plumbing Experts</a></li>
+      </ul>
+    </div>
+   </div>
+
+   <div class="bottom-bar">
+    <p>&copy;2025 your company .All rights reserved</p>
+
+    </footer>
+    
+</html>
+</html>
