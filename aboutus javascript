@@ -1,0 +1,11 @@
+ 
+ function toggleInfo() {
+    const info = document.getElementById('moreInfo');
+    info.style.display = info.style.display === 'block' ? 'none' : 'block';
+  }
+
+  <script>
+<button class="toggle-btn" onclick="toggleInfo()">Learn More About Us</button>
+
+  <div class="extra-info" id="moreInfo"></div>
+  </script>
