@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Plumbing News | Fast Flushing Plumbing</title>
   <link rel="stylesheet" type="text/css" href="news.css">
-  
+ 
+ 
    
 </head>
 <body>
@@ -15,9 +16,9 @@
         
         <a href=".index.html">Home</a>|
         <a href=".aboutus.html">Aboutus</a>|
-        <a href="service.html">Service</a>|
+        <a href=".service.html">Service</a>|
         <a href=".news.html">News</a>|
-        <a href="contactus.html">Contactus</a>|
+        <a href=".contactus.html">Contactus</a>|
         </ul>
       
 <header>
@@ -28,11 +29,9 @@
 <main id="news-container">
 </main>
 
-
-
 <script>
-  
-  const newsArticles = [
+
+const newsArticles = [
     {
       title: "Summer Plumbing Tips to Save Water & Money",
       date: "June 10, 2025",
@@ -55,9 +54,7 @@
     }
   ];
   
-
- 
-  function renderArticles() {
+function renderArticles() {
     const container = document.getElementById("news-container");
 
     newsArticles.forEach(article => {
@@ -70,14 +67,14 @@
       `;
       container.appendChild(div);
     });
-  }
+}
+window.onload = renderArticles;
 
- 
-  window.onload = renderArticles;
+</script>
 
-  
 
-   </script>
+
+
 <footer>
     <div class="container">
      <div class="footer-content">
@@ -93,9 +90,9 @@
          
            <li><a href=".index.html">Home</a></li>
            <li><a href=".aboutus.html">Aboutus</a></li>
-           <li><a href="contactus.html">Contactus</a></li>
+           <li><a href=".contactus.html">Contactus</a></li>
            <li><a href=".news.html">News</a></li>
-           <li><a href="service.html">Service</a></li>
+           <li><a href=".service.html">Service</a></li>
        </ul>
      </div>
 
@@ -112,8 +109,11 @@
 
    <div class="bottom-bar">
     <p>&copy;2025 your company .All rights reserved</p>
+    </div>
 
     </footer>
+</html>
     
-</html>
-</html>
+
+
+
