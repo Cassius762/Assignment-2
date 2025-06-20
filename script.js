@@ -1,5 +1,6 @@
 
 
+
 const newsArticles = [
     {
       title: "Summer Plumbing Tips to Save Water & Money",
@@ -38,4 +39,7 @@ function renderArticles() {
     });
 }
 window.onload = renderArticles;
+
+
+
 

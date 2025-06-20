@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #c2eaec;
@@ -79,3 +80,86 @@ margin: 10px;
     border-radius: 20px;
 }
 
+=======
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c2eaec;
+    margin: 0;
+    padding: 40px;
+  }
+
+  .form-container {
+    max-width: 500px;
+    margin: auto;
+    background: rgb(189, 220, 228);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #333;
+  }
+
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .error {
+    color: red;
+    font-size: 0.9em;
+  }
+
+  .success {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #a5d6ee;
+    border: none;
+    color: rgb(95, 127, 233);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .navbar{
+    background-color: rgb(226, 238, 238);
+    padding: 14px;
+    margin: 0px;
+    text-align: left;
+}
+
+nav a{
+text-decoration: none;
+font-size: 20px;
+margin: 10px;
+}
+.navbar a:hover{
+    background-color: rgb(65, 75, 161);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+>>>>>>> c1a87d306773b6195b8924a71008f6e3faa16445
