@@ -96,4 +96,25 @@ header {
     padding: 20px 0;
     text-align: center;
   }
+  .btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #050a50, #94b0ec);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+    
+}
+.content .btn{
+    padding: 15px 80px;
+    font-size: 16px;
+    animation-delay: 1s;
+    
+}
+.btn:hover{
+    border-top-right-radius: 30px;
+}
 
